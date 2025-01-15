@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate, useLocation } from "react-router-dom";
-import { handleError, handleSuccess } from "./utils";
+// import { han } from "../Utils";
 
 const RefreshHandler = ({ setIsAuthenticated }) => {
   const navigate = useNavigate();
